@@ -17,7 +17,7 @@ config :weather_tracker, WeatherTracker.Repo,
 # you can enable the server option below.
 config :weather_tracker, WeatherTrackerWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "8l7zTDPl7tlHbpf+/nVoTXnx7GmFg1J/1MuKDwPE/dLkMyKrxrrt58Pwk3hNLHic",
+  secret_key_base: "zMrISUPszsdBvk+ozLaK2UkCTllG5Im5aBSfOWEqkH5pmgBanwtGAjG9s+R92Cpn",
   server: false
 
 # In test we don't send emails.

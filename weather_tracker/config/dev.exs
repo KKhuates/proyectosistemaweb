@@ -23,7 +23,7 @@ config :weather_tracker, WeatherTrackerWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "mxlUQATih63MkP8rIx4RvWQEhLCMHX0m2urecT5HiyIdVGKqNbLRCmdAF1SI4D8c",
+  secret_key_base: "aQ+jQSlr9rDDoDX+aMoqJxR/TMYW3K0/6xDPTWyLddc47zZQFjsFigB87qjs/58K",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}

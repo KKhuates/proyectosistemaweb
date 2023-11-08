@@ -20,7 +20,7 @@ config :weather_tracker, WeatherTrackerWeb.Endpoint,
     layout: false
   ],
   pubsub_server: WeatherTracker.PubSub,
-  live_view: [signing_salt: "aCdV0aJa"]
+  live_view: [signing_salt: "E1sE1Saz"]
 
 # Configures the mailer
 #

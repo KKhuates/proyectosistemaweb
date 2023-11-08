@@ -20,7 +20,7 @@ defmodule WeatherTrackerWeb.WeatherConditionsController do
         |> json(weather_condition)
 
       error ->
-        Logger.warning("Failed to create a weather entry: #{inspect(error)}")  # Aquí se cambió Logger.warn a Logger.warning
+        Logger.warn("Failed to create a weather entry: #{inspect(error)}")
 
         conn
         |> put_status(:unprocessable_entity)

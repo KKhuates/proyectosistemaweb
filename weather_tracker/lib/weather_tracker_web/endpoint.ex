@@ -7,7 +7,7 @@ defmodule WeatherTrackerWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_weather_tracker_key",
-    signing_salt: "v4o78p+H",
+    signing_salt: "CtHemdon",
     same_site: "Lax"
   ]
 
